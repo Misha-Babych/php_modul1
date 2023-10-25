@@ -1,0 +1,28 @@
+Структура PHP-скрипта зазвичай виглядає так:
+<?php
+// PHP код
+?>
+
+
+Вставка PHP-коду у текстовий блок:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Привіт, світ!</title>
+</head>
+<body>
+    <h1><?php echo "Привіт, світ!"; ?></h1>
+</body>
+</html>
+
+
+Вставка PHP-коду у атрибути тегів:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Поточна дата</title>
+</head>
+<body>
+    <p>Сьогоднішня дата: <?php echo date("d.m.Y"); ?></p>
+</body>
+</html>
